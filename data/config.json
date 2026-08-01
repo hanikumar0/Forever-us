@@ -1,0 +1,216 @@
+{
+  "girlfriendName": "Sweetheart",
+  "heroTitle": "Happy Girlfriend's Day ❤️",
+  "heroSubtitle": "This website exists because you exist in my life.",
+  "heroButtonText": "Begin Our Story →",
+  "loveLetter": {
+    "sender": "Your Love",
+    "paragraphs": [
+      "To the one who makes my heart skip a beat,",
+      "I still remember the day we met—it was the day my life changed for the better. You came into my world like a gentle breeze, bringing warmth, laughter, and a kind of happiness I had never known before.",
+      "Thank you for being my safe haven, my biggest supporter, and my best friend. Every conversation, every shared smile, and every little moment with you is a memory I treasure. I promise to love you, cherish you, and stand by you through all of life's seasons.",
+      "With all my love, always and forever."
+    ]
+  },
+  "gallery": [
+    {
+      "type": "image",
+      "url": "/images/gallery-image.jpg",
+      "caption": "Our precious romantic memory snapshot 💖"
+    },
+    {
+      "type": "video",
+      "url": "/videos/gallery-video.mp4",
+      "caption": "Every step with you is a dream come true ✨"
+    }
+  ],
+  "reasons": [
+    {
+      "title": "Your Smile",
+      "description": "It has the power to instantly turn my worst days into my best ones. Your smile is my daily dose of happiness.",
+      "emoji": "❤️"
+    },
+    {
+      "title": "Your Laugh",
+      "description": "The sweetest sound in the universe. I could listen to you laugh on repeat forever and never get tired of it.",
+      "emoji": "💖"
+    },
+    {
+      "title": "Your Kindness",
+      "description": "The way you care for others, your gentle soul, and the warmth you show to everyone around you inspires me.",
+      "emoji": "🌹"
+    },
+    {
+      "title": "Your Voice",
+      "description": "My comfort zone. Just hearing your voice makes all my worries and anxieties fade away instantly.",
+      "emoji": "✨"
+    },
+    {
+      "title": "Your Heart",
+      "description": "You love so deeply and purely. Having a place in your heart is the greatest gift I could ever ask for.",
+      "emoji": "💝"
+    }
+  ],
+  "loveCounter": {
+    "stages": [0, 100, 1000, 999999999],
+    "message": "My love has no limit."
+  },
+  "relationshipStats": [
+    {
+      "label": "Days Together",
+      "value": 365,
+      "icon": "Calendar",
+      "description": "365 days of love, laughter, and beautiful memories."
+    },
+    {
+      "label": "Calls Made",
+      "value": 850,
+      "icon": "Phone",
+      "description": "Endless hours of talking, listening, and sharing."
+    },
+    {
+      "label": "Photos Shared",
+      "value": 2400,
+      "icon": "Camera",
+      "description": "Capturing our happiest moments together."
+    },
+    {
+      "label": "Late-night Talks",
+      "value": 320,
+      "icon": "Moon",
+      "description": "Whispering dreams and secrets under the starlight."
+    },
+    {
+      "label": "Times You Made Me Smile",
+      "value": 999999,
+      "icon": "Smile",
+      "description": "Basically, every single second you're around!"
+    }
+  ],
+  "floatingMemories": [
+    "Remember our first coffee date? ☕",
+    "That movie night where we both fell asleep 🍿",
+    "The way you look at me when I crack a silly joke 😜",
+    "Walking under the rain, sharing one tiny umbrella ☔",
+    "How you squeeze my hand when you get excited 🤝",
+    "Our long walks talking about the future 🏡",
+    "The way you fall asleep on my shoulder 💤"
+  ],
+  "musicUrl": "/audio/background.mp3",
+  "quiz": [
+    {
+      "question": "Where did we go on our very first date?",
+      "options": [
+        "A cozy little cafe ☕",
+        "A fancy romantic restaurant 🍽️",
+        "The park for a walk 🌳",
+        "A movie theater 🎬",
+        "Not yet 🙈"
+      ],
+      "correctIndex": 4,
+      "wrongResponse": "Hmm, think again! 😉",
+      "correctResponse": "Exactly! Our first date hasn't happened yet — and I can't wait for it! 💖"
+    },
+    {
+      "question": "What is my absolute favorite thing about you?",
+      "options": [
+        "Your beautiful eyes 👀",
+        "Your cute smile 😊",
+        "Your kind soul 💖",
+        "All of the above! 🥰"
+      ],
+      "correctIndex": 3,
+      "wrongResponse": "Well, that is true, but there's a better answer! 😄",
+      "correctResponse": "Exactly! I love absolutely everything about you! 😘"
+    },
+    {
+      "question": "Who loves the other person more?",
+      "options": [
+        "You do! 😜",
+        "I do, obviously! ❤️",
+        "It's a tie 🤝",
+        "Me, and my love increases by 9999999% daily! 🚀"
+      ],
+      "correctIndex": 3,
+      "wrongResponse": "Wrong! The math clearly points to me! 😜 Try again!",
+      "correctResponse": "Exactly! My love for you reaches infinity and beyond! ✨"
+    }
+  ],
+  "scrapbook": [
+    {
+      "image": "https://images.unsplash.com/photo-1460364117572-c277f0a6566d?q=80&w=800",
+      "title": "First Meeting",
+      "date": "August 1st",
+      "caption": "The day my world became brighter. You smiled, and I was completely lost in your world.",
+      "sticker": "Our Start ✨"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1501908731398-233c6bed3cc5?q=80&w=800",
+      "title": "Unforgettable Trips",
+      "date": "October 15th",
+      "caption": "Exploring new places with my favorite travel partner. Every place is paradise with you.",
+      "sticker": "Adventure ✈️"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1482849297070-f4fae2173efe?q=80&w=800",
+      "title": "Little Date Nights",
+      "date": "December 25th",
+      "caption": "Holding you close under the winter lights. The warm feeling of having you next to me.",
+      "sticker": "Warmth ☕"
+    }
+  ],
+  "futureDreams": [
+    {
+      "title": "Dream Home 🏡",
+      "description": "A cozy, warm place filled with plants, books, our favorite music playing, and us laughing."
+    },
+    {
+      "title": "Travel Together ✈️",
+      "description": "Exploring the streets of Rome, watching cherry blossoms in Tokyo, and getting lost in new cities."
+    },
+    {
+      "title": "Grow Old Together 👴👵",
+      "description": "Sitting in rocking chairs, holding hands, looking back at a lifetime of beautiful memories."
+    },
+    {
+      "title": "Sunset Dates 🌅",
+      "description": "Sitting quietly by the beach, watching the sky turn orange and pink, feeling peaceful in your arms."
+    }
+  ],
+  "secretMessages": [
+    "P.S. You look incredibly beautiful when you laugh. 😊",
+    "I still check my phone just to see your name on the screen. 📱",
+    "You are the best thing that has ever happened to me. ❤️",
+    "I falling in love with you all over again, every single day. 🌹",
+    "My favorite notification is a message from you. 💌",
+    "If I had a flower for every time I thought of you, I'd walk in my garden forever. 🌸"
+  ],
+  "countdown": {
+    "targetDate": "2026-10-15T00:00:00",
+    "label": "Our Next Reunion/Anniversary ❤️"
+  },
+  "promises": [
+    "I promise to support your dreams and stand by you in everything you do.",
+    "I promise to respect your thoughts, your feelings, and who you are.",
+    "I promise to listen to you, even when the words are hard to find.",
+    "I promise to stay beside you through the storms and the sunshine.",
+    "I promise to love you, choose you, and cherish you forever."
+  ],
+  "proposal": {
+    "title": "Will You Be Mine Forever? ❤️",
+    "yesResponse": "Yay! You just made me the happiest person alive ❤️",
+    "noResponses": [
+      "Hey! You can't say no that easily 😜",
+      "Try again 😂",
+      "My love is too fast for your finger ❤️",
+      "Come on, just say yes! 💕",
+      "Nice try! Still no option 🙈",
+      "Love has no exit button! 😊"
+    ],
+    "noTinyText": "Still trying? 😅"
+  },
+  "finale": {
+    "celebrationSoundUrl": "https://assets.mixkit.co/active_storage/sfx/2013/2013-84.wav",
+    "message": "No matter where life takes us, I will always choose you. Happy Girlfriend's Day, my love ❤️"
+  }
+}

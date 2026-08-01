@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-poppins), sans-serif;
+  --font-greatvibes: var(--font-great-vibes), cursive;
+  --font-dancing: var(--font-dancing-script), cursive;
+  
+  --color-romantic-pink: #FF4D8D;
+  --color-rose: #FF7AA2;
+  --color-lavender: #B388FF;
+  --color-deep-purple: #4A235A;
+  --color-gold: #FFD166;
+  --color-dark-bg: #0D0D14;
+  
+  --animate-heartbeat: heartbeat 1.2s infinite ease-in-out;
+  --animate-float: float 6s infinite ease-in-out;
+  --animate-pulse-glow: pulse-glow 2s infinite ease-in-out;
+  
+  @keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    25% { transform: scale(1.1); }
+    40% { transform: scale(1.05); }
+    60% { transform: scale(1.15); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(5deg); }
+  }
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 0.6; filter: drop-shadow(0 0 5px rgba(255, 77, 141, 0.4)); }
+    50% { opacity: 1; filter: drop-shadow(0 0 15px rgba(255, 77, 141, 0.8)); }
+  }
+}
+
+:root {
+  --background: #0D0D14;
+  --foreground: #FFFFFF;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Glassmorphism helpers */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-premium {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-card {
+  background: rgba(13, 13, 20, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 77, 141, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(255, 77, 141, 0.05);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0D0D14;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 77, 141, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 77, 141, 0.6);
+}
+
+/* Hide scrollbar for elements */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
