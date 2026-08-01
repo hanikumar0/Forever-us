@@ -12,7 +12,6 @@ const routes = [
   "/",
   "/palace",
   "/letter",
-  "/gallery",
   "/reasons",
   "/counter",
   "/stats",
@@ -153,7 +152,7 @@ export default function NavigationProvider({ children }: { children: React.React
         </div>
 
         {/* Global Floating Glass Control Bar (Hidden on Page 1 / loading states / Finale) */}
-        {currentPage > 1 && currentPage < 17 && (
+        {currentPage > 1 && currentPage < 16 && (
           <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 w-[280px] sm:w-[320px] bg-[#0D0D14]/90 backdrop-blur-xl rounded-full px-4 py-2.5 flex items-center justify-between shadow-[0_10px_30px_rgba(0,0,0,0.8)] transition-transform duration-300 hover:scale-105 border border-white/20">
             {/* Back Arrow */}
             <button
@@ -166,13 +165,13 @@ export default function NavigationProvider({ children }: { children: React.React
 
             {/* Progress Text */}
             <span className="text-[11px] tracking-widest uppercase font-bold text-white flex items-center gap-1.5 drop-shadow-md">
-              <Bookmark className="w-3.5 h-3.5 text-romantic-pink fill-romantic-pink/20" /> Chapter {currentPage} of 16
+              <Bookmark className="w-3.5 h-3.5 text-romantic-pink fill-romantic-pink/20" /> Chapter {currentPage} of 15
             </span>
 
             {/* Next Arrow (Disabled on proposal section to enforce button escape play) */}
             <button
               onClick={navigateNext}
-              disabled={currentPage === 16}
+              disabled={currentPage === 15}
               className="p-1.5 rounded-full text-white/80 hover:text-white hover:bg-white/20 disabled:opacity-20 disabled:cursor-not-allowed transition-colors cursor-pointer"
             >
               <ChevronRight className="w-5 h-5" />
